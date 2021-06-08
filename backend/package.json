@@ -10,9 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aqi-bot": "^1.1.4",
+    "aqi-calculator": "^1.1.3",
     "axios": "^0.21.1",
     "dotenv": "^9.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "geocoder": "^0.2.3",
+    "mongoose": "^5.12.13",
+    "node-geocoder": "^3.27.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

@@ -1,4 +1,5 @@
 const axios = require('axios');
+const { response } = require('express');
 const express=require("express")
 const router =express.Router()
 
@@ -16,7 +17,8 @@ function sub10Days(date){
 
 }
 router.get('/hist',async (req,res)=>{
-    var today = new Date();
+  /* 
+  var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');
     var mm = String(today.getMonth() + 1).padStart(2, '0');
     var yyyy = today.getFullYear();
@@ -46,8 +48,25 @@ router.get('/hist',async (req,res)=>{
     
         return res.send(err)
     }
+    */
 
+
+let response
+
+try{
+    response=await axios.get(`https://api.waqi.info/feed/${req.body.city}/?token=030faa7231e6f44ce81b0fa02fcaccce210f634e`)
+   
     
+   
+   
+}catch(err){
+
+    return res.send(err)
+}
+var val=response.data.data.aqi
+
+return res.send(response.data)
+   
 })
 
 

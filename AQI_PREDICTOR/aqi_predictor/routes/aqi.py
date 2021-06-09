@@ -35,7 +35,7 @@ def predict_aqi():
         print("Changed Array:",changed_arr,"\n")
         predictions = np.append(predictions,prediction)
 
-    predictions = np.append(arr[4:9],predictions)
+    predictions = np.append(arr[5:10],predictions)
     return jsonify(actual=arr.tolist(),predicted=predictions.tolist())
 
 

@@ -1,4 +1,5 @@
 from flask import Blueprint,render_template,url_for,redirect,current_app,request,make_response,jsonify
+from werkzeug.wrappers import response
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import numpy as np
@@ -14,8 +15,8 @@ def predict_aqi():
     try:
         city = mongo.db.histdatas.find_one_or_404({"cityId": ObjectId(data["city_id"])})
         print(city)
-    except Exception as inst:
-        print(inst)
+    except Exception as ex:
+        print(ex)
         return "Something went wrong while fetching from database"
     
     model = load_model("LSTM_10__200.h5")
@@ -36,4 +37,39 @@ def predict_aqi():
 
     predictions = np.append(arr[4:9],predictions)
     return jsonify(actual=arr.tolist(),predicted=predictions.tolist())
-    # return "Hello"
+
+
+@aqi.route('/change_aqi',methods=['PATCH'])
+def change_aqi():
+    cityids = []
+    try:
+        cities = mongo.db.cityinfos
+        
+        for city in cities.find():
+            # print(city.id)
+            cityids.append(city["_id"])
+    except Exception as ex:
+        print(ex)
+        return "Something went wrong while fetching cities from database"
+    
+    i=1
+    for id in cityids:
+        try:
+            city = mongo.db.histdatas1.find_one({"cityId":id})
+            if city:
+                data = city["data"]
+                print("Old Value",data)
+                new_val = 100
+                data.pop(0)
+                data.append(new_val)
+                print("New value",data)
+                mongo.db.histdatas1.update_one(
+                        {"cityId":id},
+                        {"$set":{"data":data}}
+                )
+
+        except Exception as ex:
+            print(ex)
+            return "Something went wrong while updating cities in database"
+
+    return "Updated"

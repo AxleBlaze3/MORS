@@ -152,7 +152,7 @@ pollutants=["PM2.5","PM10","NO2","NH3","SO2","CO"]
         result.datetime=pollutantList[1].last_update
 
     
-    }else if(pollutantList[1].pollutant_avg<pollutantList[0].pollutant_avg ){
+    }else if(pollutantList[1].pollutant_avg<=pollutantList[0].pollutant_avg ){
         //console.log(pollutantList[0].pollutant_avg)
         result=getCategory(pollutantList[0].pollutant_avg)
         result.aqiVal=pollutantList[0].pollutant_avg

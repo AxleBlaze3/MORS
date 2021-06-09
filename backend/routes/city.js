@@ -15,7 +15,7 @@ let response
 try{
     response=await axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${req.body.cityName},,IN&limit=2&appid=${process.env.API_KEY}`)
    
-    //console.log(response.data)
+    console.log(response.data[0].lat)
    
    
 }catch(err){
@@ -26,8 +26,9 @@ try{
 const newCity = new cityInfo({
     
     cityName: req.body.cityName,
-    cityLat:response.data[1].lat,
-    cityLng:response.data[1].lon
+    cityLat:response.data[0].lat,
+    cityLng:response.data[0].lon
+
     
 })
 try{
@@ -42,7 +43,7 @@ try{
 
 //var val=response.data.data.aqi
 
-return res.send(response.data)
+return res.send(response.data[0])
    
 })
 

@@ -10,9 +10,11 @@ aqi = Blueprint('aqi',__name__)
 def predict_aqi():
     data = request.get_json()
     try:
-        city = mongo.db.histdatas.find_one_or_404({"city_id": ObjectId(data["city_id"])})
-    except:
-        print("Something went wrong while fetching from database")
+        city = mongo.db.histdatas.find_one_or_404({"cityId": ObjectId(data["city_id"])})
+        print(city)
+    except Exception as inst:
+        print(inst)
+        return "Something went wrong while fetching from database"
     
     # model = load_model("LSTM_10__200.h5")
     # sample_arr = [[212],
@@ -26,7 +28,5 @@ def predict_aqi():
     #    [242],
     #    [259]]
     # ans = model.predict(sample_arr[0])[:,0][0][0]
-    
-
-    # print(ans) 
-    return data["city_id"]
+    # print(ans)
+    return jsonify(history=city["data"])

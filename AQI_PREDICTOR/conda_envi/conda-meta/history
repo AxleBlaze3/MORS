@@ -1,0 +1,35 @@
+==> 2021-06-09 15:09:13 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda create --prefix ./conda_envi python=3.8
+# conda version: 4.10.1
++conda-forge/noarch::pip-21.1.2-pyhd8ed1ab_0
++conda-forge/noarch::wheel-0.36.2-pyhd3deb0d_0
++conda-forge/osx-arm64::ca-certificates-2021.5.30-h4653dfc_0
++conda-forge/osx-arm64::certifi-2021.5.30-py38h10201cd_0
++conda-forge/osx-arm64::libcxx-11.1.0-h168391b_0
++conda-forge/osx-arm64::libffi-3.3-h9f76cd9_2
++conda-forge/osx-arm64::ncurses-6.2-h9aa5885_4
++conda-forge/osx-arm64::openssl-1.1.1k-h27ca646_0
++conda-forge/osx-arm64::python-3.8.10-hf9733c0_1_cpython
++conda-forge/osx-arm64::python_abi-3.8-1_cp38
++conda-forge/osx-arm64::readline-8.1-hedafd6a_0
++conda-forge/osx-arm64::setuptools-49.6.0-py38h10201cd_3
++conda-forge/osx-arm64::sqlite-3.35.5-hc49ca36_0
++conda-forge/osx-arm64::tk-8.6.10-hf7e6567_1
++conda-forge/osx-arm64::xz-5.2.5-h642e427_1
++conda-forge/osx-arm64::zlib-1.2.11-h31e879b_1009
+# update specs: ['python=3.8']
+==> 2021-06-09 15:09:35 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c anaconda flask
+# conda version: 4.10.1
++anaconda/noarch::click-7.1.2-py_0
++anaconda/noarch::flask-1.1.2-py_0
++anaconda/noarch::itsdangerous-1.1.0-py_0
++anaconda/noarch::jinja2-2.11.2-py_0
++anaconda/noarch::werkzeug-1.0.1-py_0
++conda-forge/osx-arm64::markupsafe-2.0.1-py38hea4295b_0
+# update specs: ['flask']
+==> 2021-06-09 15:11:30 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c conda-forge python-dotenv
+# conda version: 4.10.1
++conda-forge/noarch::python-dotenv-0.17.1-pyhd8ed1ab_0
+# update specs: ['python-dotenv']

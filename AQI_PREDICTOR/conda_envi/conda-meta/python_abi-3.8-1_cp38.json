@@ -1,0 +1,37 @@
+{
+  "build": "1_cp38",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "pypy <0a0",
+    "python_abi * *_cp38"
+  ],
+  "depends": [
+    "python 3.8.*"
+  ],
+  "extracted_package_dir": "/Users/shuraiqkhan/miniforge3/pkgs/python_abi-3.8-1_cp38",
+  "features": "",
+  "files": [],
+  "fn": "python_abi-3.8-1_cp38.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/shuraiqkhan/miniforge3/pkgs/python_abi-3.8-1_cp38",
+    "type": 1
+  },
+  "md5": "123f200273020f4a62da67e19c892197",
+  "name": "python_abi",
+  "package_tarball_full_path": "/Users/shuraiqkhan/miniforge3/pkgs/python_abi-3.8-1_cp38.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6a3a4ba55d3eca1ace740eb9cfd2a112d8d6a34a6aa55b3bd82c9d4e380ef02f",
+  "size": 3977,
+  "subdir": "osx-arm64",
+  "timestamp": 1597435361313,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/python_abi-3.8-1_cp38.tar.bz2",
+  "version": "3.8"
+}

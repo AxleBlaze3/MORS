@@ -1,0 +1,84 @@
+==> 2021-06-09 15:09:13 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda create --prefix ./conda_envi python=3.8
+# conda version: 4.10.1
++conda-forge/noarch::pip-21.1.2-pyhd8ed1ab_0
++conda-forge/noarch::wheel-0.36.2-pyhd3deb0d_0
++conda-forge/osx-arm64::ca-certificates-2021.5.30-h4653dfc_0
++conda-forge/osx-arm64::certifi-2021.5.30-py38h10201cd_0
++conda-forge/osx-arm64::libcxx-11.1.0-h168391b_0
++conda-forge/osx-arm64::libffi-3.3-h9f76cd9_2
++conda-forge/osx-arm64::ncurses-6.2-h9aa5885_4
++conda-forge/osx-arm64::openssl-1.1.1k-h27ca646_0
++conda-forge/osx-arm64::python-3.8.10-hf9733c0_1_cpython
++conda-forge/osx-arm64::python_abi-3.8-1_cp38
++conda-forge/osx-arm64::readline-8.1-hedafd6a_0
++conda-forge/osx-arm64::setuptools-49.6.0-py38h10201cd_3
++conda-forge/osx-arm64::sqlite-3.35.5-hc49ca36_0
++conda-forge/osx-arm64::tk-8.6.10-hf7e6567_1
++conda-forge/osx-arm64::xz-5.2.5-h642e427_1
++conda-forge/osx-arm64::zlib-1.2.11-h31e879b_1009
+# update specs: ['python=3.8']
+==> 2021-06-09 15:09:35 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c anaconda flask
+# conda version: 4.10.1
++anaconda/noarch::click-7.1.2-py_0
++anaconda/noarch::flask-1.1.2-py_0
++anaconda/noarch::itsdangerous-1.1.0-py_0
++anaconda/noarch::jinja2-2.11.2-py_0
++anaconda/noarch::werkzeug-1.0.1-py_0
++conda-forge/osx-arm64::markupsafe-2.0.1-py38hea4295b_0
+# update specs: ['flask']
+==> 2021-06-09 15:11:30 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c conda-forge python-dotenv
+# conda version: 4.10.1
++conda-forge/noarch::python-dotenv-0.17.1-pyhd8ed1ab_0
+# update specs: ['python-dotenv']
+==> 2021-06-09 15:34:09 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install cached-property
+# conda version: 4.10.1
++conda-forge/noarch::cached-property-1.5.2-hd8ed1ab_1
++conda-forge/noarch::cached_property-1.5.2-pyha770c72_1
+# update specs: ['cached-property']
+==> 2021-06-09 15:34:26 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install six
+# conda version: 4.10.1
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
+# update specs: ['six']
+==> 2021-06-09 16:37:42 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c conda-forge -y absl-py
+# conda version: 4.10.1
++conda-forge/noarch::absl-py-0.12.0-pyhd8ed1ab_0
+# update specs: ['absl-py']
+==> 2021-06-09 16:37:56 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c conda-forge -y astunparse
+# conda version: 4.10.1
++conda-forge/noarch::astunparse-1.6.3-pyhd8ed1ab_0
+# update specs: ['astunparse']
+==> 2021-06-09 16:38:06 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c conda-forge -y gast
+# conda version: 4.10.1
++conda-forge/noarch::gast-0.4.0-pyh9f0ad1d_0
+# update specs: ['gast']
+==> 2021-06-09 16:38:23 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c conda-forge -y opt_einsum
+# conda version: 4.10.1
++conda-forge/noarch::opt_einsum-3.3.0-pyhd8ed1ab_1
++conda-forge/osx-arm64::libblas-3.9.0-9_openblas
++conda-forge/osx-arm64::libcblas-3.9.0-9_openblas
++conda-forge/osx-arm64::libgfortran-5.0.0.dev0-11_0_1_hf114ba7_22
++conda-forge/osx-arm64::libgfortran5-11.0.1.dev0-hf114ba7_22
++conda-forge/osx-arm64::liblapack-3.9.0-9_openblas
++conda-forge/osx-arm64::libopenblas-0.3.15-openmp_hf330de4_1
++conda-forge/osx-arm64::llvm-openmp-11.1.0-hf3c4609_1
++conda-forge/osx-arm64::numpy-1.20.3-py38hbf7bb01_1
+# update specs: ['opt_einsum']
+==> 2021-06-09 16:38:42 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c conda-forge -y typing_extensions
+# conda version: 4.10.1
++conda-forge/noarch::typing_extensions-3.10.0.0-pyha770c72_0
+# update specs: ['typing_extensions']
+==> 2021-06-09 16:39:02 <==
+# cmd: /Users/shuraiqkhan/miniforge3/bin/conda install -c conda-forge -y typeguard
+# conda version: 4.10.1
++conda-forge/noarch::typeguard-2.12.1-pyhd8ed1ab_0
+# update specs: ['typeguard']

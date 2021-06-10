@@ -1,6 +1,7 @@
 from flask import Blueprint,render_template,url_for,redirect,current_app,request,make_response,jsonify
 # import tensorflow as tf
 # from tensorflow.keras.models import load_model
+import os
 from bson import ObjectId
 from aqi_predictor import mongo
 
@@ -9,8 +10,11 @@ aqi = Blueprint('aqi',__name__)
 @aqi.route('/predict_aqi',methods=['POST'])
 def predict_aqi():
     data = request.get_json()
+    print(os.environ.get('MONGO_URI') )
     try:
-        city = mongo.db.histdatas.find_one_or_404({"city_id": ObjectId(data["city_id"])})
+        print(ObjectId(data["city_id"]))
+        city = mongo.db.aqis.find_one_or_404({"city_id": ObjectId(data["city_id"])})
+        print(city)
     except:
         print("Something went wrong while fetching from database")
     
@@ -29,4 +33,4 @@ def predict_aqi():
     
 
     # print(ans) 
-    return data["city_id"]
+    return jsonify("Hello")

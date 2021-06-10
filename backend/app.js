@@ -1,11 +1,14 @@
 require('dotenv').config();
 require('./models/cityInfo');
+require('./models/pollutants');
+require('./models/aqiWInfo');
 require('./models/histAqi');
 const mongoose = require('mongoose');
 const express=require('express')
 
 //const mongose=require('mongoose')
 const currAqi=require('./routes/currAqi')
+const push=require('./routes/pushInf')
 const historicalAqi=require('./routes/historicalAqi')
 const dataFHist=require('./routes/dataFHist')
 const app=express()
@@ -20,6 +23,7 @@ app.use(currAqi)
 app.use(historicalAqi)
 app.use(cityRoute)
 app.use(dataFHist)
+app.use(push)
 
 app.get('/',(req,res)=>{
   return res.send("Hello")

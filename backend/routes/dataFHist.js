@@ -21,7 +21,7 @@ router.post('/add-data',async (req,res)=>{
     const newHistData = new histData({
     
         cityId: city[0]._id,
-        data:[124,336,175,115,170,154,107,107,107,107]
+        data:[115,89,121,159,129,110,120,333,694,188]
     
         
     })

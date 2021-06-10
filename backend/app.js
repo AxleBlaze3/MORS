@@ -11,6 +11,7 @@ const currAqi=require('./routes/currAqi')
 const push=require('./routes/pushInf')
 const historicalAqi=require('./routes/historicalAqi')
 const dataFHist=require('./routes/dataFHist')
+const patchIt=require('./routes/patchInf')
 const app=express()
 const cityRoute = require('./routes/city')
 const port = process.env.PORT || 4000;
@@ -24,6 +25,7 @@ app.use(historicalAqi)
 app.use(cityRoute)
 app.use(dataFHist)
 app.use(push)
+app.use(patchIt)
 
 app.get('/',(req,res)=>{
   return res.send("Hello")

@@ -1,7 +1,7 @@
 const axios = require('axios');
 const express=require("express")
 const router =express.Router()
-
+const mongoose=require("mongoose")
 
 function getCategory(aqi){
    
@@ -165,8 +165,34 @@ pollutants=["PM2.5","PM10","NO2","NH3","SO2","CO"]
 
     return res.json(result)
 })
+const aqiInfo=mongoose.model('aqiInfo')
+const pollCollection=mongoose.model('pollCollection')
+router.get("/allaqis",async(req,res)=>{
+    let aqis
+    try{
+        aqis=await aqiInfo.find({})
 
 
+    }catch(err){
+        console.log(err)
+    }
+    return res.json(aqis)
+    
+})
+
+router.get("/onepollutant/:cid",async(req,res)=>{
+    let pollut
+    let cid=req.params.cid
+    try{
+        pollut=await pollCollection.findOne({cityId:cid})
+
+
+    }catch(err){
+        console.log(err)
+    }
+    return res.json(pollut)
+    
+})
 
 module.exports=router
 

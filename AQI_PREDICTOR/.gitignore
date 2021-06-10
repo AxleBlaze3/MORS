@@ -109,6 +109,7 @@ celerybeat.pid
 env/
 conda_envi/
 aqi_env/
+aqi_envi/
 venv/
 ENV/
 env.bak/

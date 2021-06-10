@@ -90,17 +90,15 @@ pollutants=["PM2.5","PM10","NO2","NH3","SO2","CO"]
 
     for (var j=0;j<pollutants.length;j++){
         
-        for(var i = 0; i < response.data.records.length; i++)
-{
+        for(var i = 0; i < response.data.records.length; i++){
     
-  if(response.data.records[i].pollutant_id == pollutants[j])
-  {
+  if(response.data.records[i].pollutant_id == pollutants[j]){
      
       pollutantList.push(response.data.records[i])
     break;
   }
   if(i==response.data.records.length-1){
-    pollutantList.push({pollutant_id:pollutants[j],pollutant_avg:"NA"})
+    pollutantList.push({pollutant_id:pollutants[j],pollutant_avg:"NA",pollutant_min:"NA",pollutant_max:"NA"})
   }
 }
     }

@@ -12,6 +12,7 @@ aqi = Blueprint('aqi',__name__)
 def predict_aqi():
     T = 10
     data = request.get_json()
+    print(os.environ.get('MONGO_URI') )
     try:
         city = mongo.db.histdatas.find_one_or_404({"cityId": ObjectId(data["city_id"])})
         print(city)

@@ -107,6 +107,7 @@ celerybeat.pid
 .env
 .venv
 env/
+conda_envi/
 aqi_env/
 venv/
 ENV/

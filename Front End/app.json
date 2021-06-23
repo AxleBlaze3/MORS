@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "rn-starter",
+    "slug": "rn-starter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/Splash_New.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAXozR7PqkaJK-JCxGpvU6byj5JXEajiTs"
+        }
+      }
+    },
+    "web": {}
+  }
+}

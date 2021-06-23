@@ -1,0 +1,592 @@
+﻿{
+    "Data": [
+        {
+            "Key": "1",
+            "City": "Delhi",
+            "Latitude": "28.6517178",
+            "Longitude": "77.2219388"
+        },
+        {
+            "Key": "2",
+            "City": "Bangalore",
+            "Latitude": "12.9791198",
+            "Longitude": "77.5912997"
+        },
+        {
+            "Key": "3",
+            "City": "Hyderabad",
+            "Latitude": "17.360589",
+            "Longitude": "78.4740613"
+        },
+        {
+            "Key": "4",
+            "City": "Ahmedabad",
+            "Latitude": "23.0216238",
+            "Longitude": "72.5797068"
+        },
+        {
+            "Key": "5",
+            "City": "Chennai",
+            "Latitude": "13.0836939",
+            "Longitude": "80.270186"
+        },
+        {
+            "Key": "6",
+            "City": "Kolkata",
+            "Latitude": "22.5414185",
+            "Longitude": "88.35769124"
+        },
+        {
+            "Key": "7",
+            "City": "Surat",
+            "Latitude": "45.9383",
+            "Longitude": "3.2553"
+        },
+        {
+            "Key": "8",
+            "City": "Pune",
+            "Latitude": "18.521428",
+            "Longitude": "73.8544541"
+        },
+        {
+            "Key": "9",
+            "City": "Jaipur",
+            "Latitude": "26.9154576",
+            "Longitude": "75.8189817"
+        },
+        {
+            "Key": "10",
+            "City": "Lucknow",
+            "Latitude": "26.8381",
+            "Longitude": "80.9346001"
+        },
+        {
+            "Key": "11",
+            "City": "Kanpur",
+            "Latitude": "26.4609135",
+            "Longitude": "80.3217588"
+        },
+        {
+            "Key": "12",
+            "City": "Nagpur",
+            "Latitude": "21.1498134",
+            "Longitude": "79.0820556"
+        },
+        {
+            "Key": "13",
+            "City": "Indore",
+            "Latitude": "22.7203616",
+            "Longitude": "75.8681996"
+        },
+        {
+            "Key": "14",
+            "City": "Thane",
+            "Latitude": "19.1943294",
+            "Longitude": "72.9701779"
+        },
+        {
+            "Key": "15",
+            "City": "Bhopal",
+            "Latitude": "23.2584857",
+            "Longitude": "77.401989"
+        },
+        {
+            "Key": "16",
+            "City": "Visakhapatnam",
+            "Latitude": "17.7231276",
+            "Longitude": "83.3012842"
+        },
+        {
+            "Key": "17",
+            "City": "Pimpri & Chinchwad",
+            "Latitude": "18.6279288",
+            "Longitude": "73.8009829"
+        },
+        {
+            "Key": "18",
+            "City": "Patna",
+            "Latitude": "25.6093239",
+            "Longitude": "85.1235252"
+        },
+        {
+            "Key": "19",
+            "City": "Vadodara",
+            "Latitude": "22.2973142",
+            "Longitude": "73.1942567"
+        },
+        {
+            "Key": "20",
+            "City": "Ghaziabad",
+            "Latitude": "28.711241",
+            "Longitude": "77.4445372"
+        },
+        {
+            "Key": "21",
+            "City": "Ludhiana",
+            "Latitude": "30.9090157",
+            "Longitude": "75.851601"
+        },
+        {
+            "Key": "22",
+            "City": "Agra",
+            "Latitude": "27.1752554",
+            "Longitude": "78.0098161"
+        },
+        {
+            "Key": "23",
+            "City": "Nashik",
+            "Latitude": "20.0112475",
+            "Longitude": "73.7902364"
+        },
+        {
+            "Key": "24",
+            "City": "Faridabad",
+            "Latitude": "28.4029786",
+            "Longitude": "77.3103837"
+        },
+        {
+            "Key": "25",
+            "City": "Meerut",
+            "Latitude": "29.00065255",
+            "Longitude": "77.76822875"
+        },
+        {
+            "Key": "26",
+            "City": "Rajkot",
+            "Latitude": "22.3051991",
+            "Longitude": "70.8028335"
+        },
+        {
+            "Key": "27",
+            "City": "Kalyan & Dombivali",
+            "Latitude": "19.2334875",
+            "Longitude": "73.1182464"
+        },
+        {
+            "Key": "28",
+            "City": "Vasai Virar",
+            "Latitude": "19.4258788",
+            "Longitude": "72.8224901"
+        },
+        {
+            "Key": "29",
+            "City": "Varanasi",
+            "Latitude": "25.3356491",
+            "Longitude": "83.0076292"
+        },
+        {
+            "Key": "30",
+            "City": "Srinagar",
+            "Latitude": "34.0747444",
+            "Longitude": "74.8204443"
+        },
+        {
+            "Key": "31",
+            "City": "Aurangabad",
+            "Latitude": "19.877263",
+            "Longitude": "75.3390241"
+        },
+        {
+            "Key": "32",
+            "City": "Dhanbad",
+            "Latitude": "23.7952809",
+            "Longitude": "86.4309638"
+        },
+        {
+            "Key": "33",
+            "City": "Amritsar",
+            "Latitude": "31.6343083",
+            "Longitude": "74.8736788"
+        },
+        {
+            "Key": "34",
+            "City": "Navi Mumbai",
+            "Latitude": "19.0308262",
+            "Longitude": "73.0198537"
+        },
+        {
+            "Key": "35",
+            "City": "Allahabad",
+            "Latitude": "25.4381302",
+            "Longitude": "81.8338005"
+        },
+        {
+            "Key": "36",
+            "City": "Ranchi",
+            "Latitude": "23.3700354",
+            "Longitude": "85.3250132"
+        },
+        {
+            "Key": "37",
+            "City": "Haora",
+            "Latitude": "22.5736296",
+            "Longitude": "88.3251045"
+        },
+        {
+            "Key": "38",
+            "City": "Coimbatore",
+            "Latitude": "11.0018115",
+            "Longitude": "76.9628425"
+        },
+        {
+            "Key": "39",
+            "City": "Jabalpur",
+            "Latitude": "23.1608938",
+            "Longitude": "79.9497702"
+        },
+        {
+            "Key": "40",
+            "City": "Gwalior",
+            "Latitude": "26.2037247",
+            "Longitude": "78.1573628"
+        },
+        {
+            "Key": "41",
+            "City": "Vijayawada",
+            "Latitude": "16.5087586",
+            "Longitude": "80.6185102"
+        },
+        {
+            "Key": "42",
+            "City": "Jodhpur",
+            "Latitude": "26.2967719",
+            "Longitude": "73.0351433"
+        },
+        {
+            "Key": "43",
+            "City": "Madurai",
+            "Latitude": "9.9261153",
+            "Longitude": "78.1140983"
+        },
+        {
+            "Key": "44",
+            "City": "Raipur",
+            "Latitude": "21.2379469",
+            "Longitude": "81.6336833"
+        },
+        {
+            "Key": "45",
+            "City": "Kota",
+            "Latitude": "25.1968256",
+            "Longitude": "76.00089331"
+        },
+        {
+            "Key": "46",
+            "City": "Guwahati",
+            "Latitude": "26.1805978",
+            "Longitude": "91.753943"
+        },
+        {
+            "Key": "47",
+            "City": "Chandigarh",
+            "Latitude": "30.7334421",
+            "Longitude": "76.7797143"
+        },
+        {
+            "Key": "48",
+            "City": "Solapur",
+            "Latitude": "17.84990665",
+            "Longitude": "75.27632027"
+        },
+        {
+            "Key": "49",
+            "City": "Hubli and Dharwad",
+            "Latitude": "15.3518378",
+            "Longitude": "75.1379848"
+        },
+        {
+            "Key": "50",
+            "City": "Bareilly",
+            "Latitude": "28.457876",
+            "Longitude": "79.40557094"
+        },
+        {
+            "Key": "51",
+            "City": "Moradabad",
+            "Latitude": "28.8638424",
+            "Longitude": "78.80577833"
+        },
+        {
+            "Key": "52",
+            "City": "Karnataka ",
+            "Latitude": "14.5203896",
+            "Longitude": "75.7223521"
+        },
+        {
+            "Key": "53",
+            "City": "Gurgaon",
+            "Latitude": "28.42826235",
+            "Longitude": "77.00270015"
+        },
+        {
+            "Key": "54",
+            "City": "Aligarh",
+            "Latitude": "27.87698975",
+            "Longitude": "78.13729028"
+        },
+        {
+            "Key": "55",
+            "City": "Jalandhar",
+            "Latitude": "31.29201065",
+            "Longitude": "75.56805772"
+        },
+        {
+            "Key": "56",
+            "City": "Tiruchirappalli",
+            "Latitude": "10.804973",
+            "Longitude": "78.6870296"
+        },
+        {
+            "Key": "57",
+            "City": "Bhubaneswar",
+            "Latitude": "20.2667774",
+            "Longitude": "85.8435592"
+        },
+        {
+            "Key": "58",
+            "City": "Salem",
+            "Latitude": "44.9391565",
+            "Longitude": "-123.033121"
+        },
+        {
+            "Key": "59",
+            "City": "Mira and Bhayander",
+            "Latitude": "19.2962873",
+            "Longitude": "72.8618456"
+        },
+        {
+            "Key": "60",
+            "City": "Thiruvananthapuram",
+            "Latitude": "8.5241122",
+            "Longitude": "76.9360573"
+        },
+        {
+            "Key": "61",
+            "City": "Bhiwandi",
+            "Latitude": "19.3625308",
+            "Longitude": "73.07847468"
+        },
+        {
+            "Key": "62",
+            "City": "Saharanpur",
+            "Latitude": "29.9880774",
+            "Longitude": "77.50812995"
+        },
+        {
+            "Key": "63",
+            "City": "Gorakhpur",
+            "Latitude": "26.67132865",
+            "Longitude": "83.36458284"
+        },
+        {
+            "Key": "64",
+            "City": "Guntur",
+            "Latitude": "16.2915189",
+            "Longitude": "80.4541588"
+        },
+        {
+            "Key": "65",
+            "City": "Bikaner",
+            "Latitude": "28.0159286",
+            "Longitude": "73.3171367"
+        },
+        {
+            "Key": "66",
+            "City": "Amravati",
+            "Latitude": "21.15454115",
+            "Longitude": "77.64429618"
+        },
+        {
+            "Key": "67",
+            "City": "Noida",
+            "Latitude": "28.5707841",
+            "Longitude": "77.3271074"
+        },
+        {
+            "Key": "68",
+            "City": "Jamshedpur",
+            "Latitude": "22.8015194",
+            "Longitude": "86.2029579"
+        },
+        {
+            "Key": "69",
+            "City": "Bhilai Nagar",
+            "Latitude": "21.200996",
+            "Longitude": "81.3354264"
+        },
+        {
+            "Key": "70",
+            "City": "Warangal",
+            "Latitude": "17.9806094",
+            "Longitude": "79.5982115"
+        },
+        {
+            "Key": "71",
+            "City": "Cuttack",
+            "Latitude": "20.4686",
+            "Longitude": "85.8792"
+        },
+        {
+            "Key": "72",
+            "City": "Firozabad",
+            "Latitude": "27.17736635",
+            "Longitude": "78.38991198"
+        },
+        {
+            "Key": "73",
+            "City": "Kochi",
+            "Latitude": "9.931308",
+            "Longitude": "76.2674136"
+        },
+        {
+            "Key": "74",
+            "City": "Bhavnagar",
+            "Latitude": "21.7718836",
+            "Longitude": "72.1416449"
+        },
+        {
+            "Key": "75",
+            "City": "Dehradun",
+            "Latitude": "30.3255646",
+            "Longitude": "78.0436813"
+        },
+        {
+            "Key": "76",
+            "City": "Durgapur",
+            "Latitude": "23.5350475",
+            "Longitude": "87.3380425"
+        },
+        {
+            "Key": "77",
+            "City": "Asansol",
+            "Latitude": "23.6871297",
+            "Longitude": "86.9746587"
+        },
+        {
+            "Key": "78",
+            "City": "Nanded Waghala",
+            "Latitude": "19.169335",
+            "Longitude": "77.311013"
+        },
+        {
+            "Key": "79",
+            "City": "Kolapur",
+            "Latitude": "23.8964954",
+            "Longitude": "71.6246531"
+        },
+        {
+            "Key": "80",
+            "City": "Ajmer",
+            "Latitude": "26.4691",
+            "Longitude": "74.639"
+        },
+        {
+            "Key": "81",
+            "City": "Gulbarga",
+            "Latitude": "17.166667",
+            "Longitude": "77.083333"
+        },
+        {
+            "Key": "82",
+            "City": "Jamnagar",
+            "Latitude": "22.4732415",
+            "Longitude": "70.0552102"
+        },
+        {
+            "Key": "83",
+            "City": "Ujjain",
+            "Latitude": "23.174597",
+            "Longitude": "75.7851423"
+        },
+        {
+            "Key": "84",
+            "City": "Loni",
+            "Latitude": "19.5821138",
+            "Longitude": "74.4709449"
+        },
+        {
+            "Key": "85",
+            "City": "Siliguri",
+            "Latitude": "26.7164127",
+            "Longitude": "88.4309916"
+        },
+        {
+            "Key": "86",
+            "City": "Jhansi",
+            "Latitude": "25.53103115",
+            "Longitude": "78.65268902"
+        },
+        {
+            "Key": "87",
+            "City": "Ulhasnagar",
+            "Latitude": "19.19714465",
+            "Longitude": "73.18986842"
+        },
+        {
+            "Key": "88",
+            "City": "Nellore",
+            "Latitude": "14.4493717",
+            "Longitude": "79.9873763"
+        },
+        {
+            "Key": "89",
+            "City": "Jammu",
+            "Latitude": "32.7185614",
+            "Longitude": "74.8580917"
+        },
+        {
+            "Key": "90",
+            "City": "Sangli Miraj Kupwad",
+            "Latitude": "16.8502534",
+            "Longitude": "74.5948885"
+        },
+        {
+            "Key": "91",
+            "City": "Belgaum",
+            "Latitude": "15.8572666",
+            "Longitude": "74.5069343"
+        },
+        {
+            "Key": "92",
+            "City": "Mangalore",
+            "Latitude": "12.8698101",
+            "Longitude": "74.8430082"
+        },
+        {
+            "Key": "93",
+            "City": "Ambattur",
+            "Latitude": "13.1128863",
+            "Longitude": "80.15986241"
+        },
+        {
+            "Key": "94",
+            "City": "Tirunelveli",
+            "Latitude": "8.7012203",
+            "Longitude": "77.5792694"
+        },
+        {
+            "Key": "95",
+            "City": "Gaya",
+            "Latitude": "24.7964355",
+            "Longitude": "85.0079563"
+        },
+        {
+            "Key": "96",
+            "City": "Jalgaon",
+            "Latitude": "20.84351185",
+            "Longitude": "75.52592659"
+        },
+        {
+            "Key": "97",
+            "City": "Udaipur",
+            "Latitude": "24.578721",
+            "Longitude": "73.6862571"
+        },
+        {
+            "Key": "98",
+            "City": "Maheshtala",
+            "Latitude": "22.508621",
+            "Longitude": "88.2532182"
+        }
+    ]
+}
